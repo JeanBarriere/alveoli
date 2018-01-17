@@ -53,7 +53,7 @@
         light
         @click.stop="rightDrawer = !rightDrawer"
       >
-        <v-icon>menu</v-icon>
+        <f-icon>menu</f-icon>
       </v-btn>
     </v-toolbar>
     <v-content>

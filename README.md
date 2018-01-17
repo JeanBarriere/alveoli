@@ -30,13 +30,14 @@ If port `8080` is already in use on your machine you must change the port number
 * The Alveoli theme based on [Vuetify](https://vuetifyjs.com/)
   - Material based theme
   - Blur and single-line icons guideline
+  - [Feather](https://github.com/feathericons/feather) icon pack with insider plugin
 * [Vue i18n](https://github.com/kazupon/vue-i18n) pre-configured with **en-gb** and fr-fr by default
 * [Vuex](https://github.com/vuejs/vuex) with [persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate) on top, built with files as modules
 * Webpack aliases to match a reactive architecture:
   - Type `%` to reach `src/components/pages` (e.g : `%/PageName`) (for pages components)
   - Type `$` to reach `src/components/templates` (e.g : `$/TemplateName`) (for generic components)
-  - Type `#` to reach `src/components/utils` (e.g : `#/UtilName`) (for SDK or partial components)
-  - Type `?` to reach `src/services` (e.g : `?/ServiceName`) (for services such as an API or a HTTP manager)
+  - Type `` to reach `src/components/utils` (e.g : `#/UtilName`) (for SDK or partial components)
+  - Type `#` to reach `src/services` (e.g : `?/ServiceName`) (for services such as an API or a HTTP manager)
   - `@` is still the alias to reach the `src` folder
 
 ## Contributing

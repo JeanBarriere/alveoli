@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-        <img src="../../assets/v.png" alt="Vue" class="mb-5">
+        <img src="@/assets/logo.png" alt="Vue" class="mb-5">
         <blockquote>
           &#8220;\{{ $t('alveoli.slogan') }}&#8221;
           <footer>

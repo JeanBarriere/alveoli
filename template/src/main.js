@@ -10,12 +10,12 @@ import router from '@/router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import store from '@/store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import i18n from '@/translation'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Vuetify from 'vuetify'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import VueFeatherIcon from 'vue-feather-icon'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import('node_modules/vuetify/dist/vuetify.min.css'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Feather from '$:srv/Feather.js'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import('vuetify/dist/vuetify.min.css'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(Vuetify){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(VueFeatherIcon){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Feather){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 /* eslint-disable no-new */
 new Vue({
