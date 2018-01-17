@@ -30,7 +30,7 @@ If port `8080` is already in use on your machine you must change the port number
 * The Alveoli theme based on [Vuetify](https://vuetifyjs.com/)
   - Material based theme
   - Blur and single-line icons guideline
-  - [Feather](https://github.com/feathericons/feather) icon pack with insider plugin
+  - [Feather](https://github.com/feathericons/feather) icon pack with insider plugin (usage: `<f-icon>menu</f-icon>`)
 * [Vue i18n](https://github.com/kazupon/vue-i18n) pre-configured with **en-gb** and fr-fr by default
 * [Vuex](https://github.com/vuejs/vuex) with [persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate) on top, built with files as modules
 * Webpack aliases to match a reactive architecture:
