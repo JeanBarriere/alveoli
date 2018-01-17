@@ -36,8 +36,8 @@ If port `8080` is already in use on your machine you must change the port number
 * Webpack aliases to match a reactive architecture:
   - Type `%` to reach `src/components/pages` (e.g : `%/PageName`) (for pages components)
   - Type `$` to reach `src/components/templates` (e.g : `$/TemplateName`) (for generic components)
-  - Type `` to reach `src/components/utils` (e.g : `#/UtilName`) (for SDK or partial components)
-  - Type `#` to reach `src/services` (e.g : `?/ServiceName`) (for services such as an API or a HTTP manager)
+  - Type `#` to reach `src/components/utils` (e.g : `#/UtilName`) (for SDK or partial components)
+  - Type `~` to reach `src/services` (e.g : `?/ServiceName`) (for services such as an API or a HTTP manager)
   - `@` is still the alias to reach the `src` folder
 
 ## Contributing

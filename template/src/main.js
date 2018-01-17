@@ -10,7 +10,7 @@ import router from '@/router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import store from '@/store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import i18n from '@/translation'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Vuetify from 'vuetify'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import Feather from '$:srv/Feather.js'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Feather from '~/Feather.js'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import('vuetify/dist/vuetify.min.css'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
