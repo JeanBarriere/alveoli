@@ -4,10 +4,10 @@
       <v-layout column align-center>
         <img src="../../assets/v.png" alt="Vue" class="mb-5">
         <blockquote>
-          &#8220;{{ $('alveoli.slogan') }}&#8221;
+          &#8220;\{{ $t('alveoli.slogan') }}&#8221;
           <footer>
             <small>
-              <em>&mdash;Unknown</em>
+              <em>&mdash;Version \{{ getAlveoliVersion }}</em>
             </small>
           </footer>
         </blockquote>
@@ -17,7 +17,10 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
 export default {
-  name: 'hello'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+  name: 'hello',
+  computed: mapGetters(['getAlveoliVersion']){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 </script>
